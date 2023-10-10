@@ -1,0 +1,20 @@
+/* Default styles for larger screens */
+.users-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .users-list-container {
+        padding: 10px;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .users-list-container {
+        padding: 5px;
+    }
+}
